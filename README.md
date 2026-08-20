@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>ESP32-WROOM-32D • Si7021 • RS485 • Relay • USB • Qwiic • 4-Layer PCB</strong>
+  <strong>ESP32-WROOM-32D • Si7021 • Relay • USB • Qwiic • 4-Layer PCB</strong>
 </p>
 
 <p align="center">
@@ -63,7 +63,6 @@ documentation.
 | **Environmental Sensor** | Si7021-A20 |
 | **Sensor Interface** | I²C |
 | **Serial / Expansion** | UART / GPIO |
-| **RS485 Interface** | Dedicated RS485/GPIO interface |
 | **Relay Control** | RT314A05 relay |
 | **USB** | USB 2.0 Type-C interface |
 | **Expansion** | Qwiic connector |
@@ -139,11 +138,6 @@ connectivity platform for the board.
 The **Si7021-A20** provides digital environmental sensing through an
 I²C interface.
 
-### Wired Communication
-
-The design includes a dedicated **RS485/GPIO** interface within the
-controller and expansion circuitry.
-
 ### Relay Control
 
 A **RT314A05 relay** provides a dedicated switched-output function with
@@ -169,7 +163,6 @@ The board is implemented as a **4-layer PCB** using **KiCad**.
 - 4-layer PCB architecture
 - ESP32-WROOM-32D module
 - Environmental sensor interface
-- RS485 connectivity
 - Relay control circuitry
 - USB Type-C interface
 - Qwiic expansion
@@ -203,7 +196,7 @@ The exported electrical schematic is available as:
 ### 📐 [View IOT Schematic PDF](docs/IOT_Schematic.pdf)
 
 The schematic documents the ESP32 controller, environmental sensor,
-USB interface, RS485/GPIO circuitry, relay control, Qwiic interface,
+USB interface, relay control, Qwiic interface,
 power circuitry, and associated support components.
 
 ---
