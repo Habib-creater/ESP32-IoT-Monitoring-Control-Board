@@ -45,13 +45,13 @@ documentation.
 
 | Resource | Description |
 |---|---|
-| 📐 [Schematic PDF](docs/IOT_Schematic.pdf) | Complete electrical schematic |
-| 📦 [Bill of Materials](bom/IOT_BOM.csv) | Component BOM |
-| 🏭 [Gerber & Drill Files](manufacturing/gerbers/) | PCB manufacturing outputs |
-| 🔧 [KiCad Project](hardware/kicad/) | Native KiCad design files |
-| 🖼️ [PCB Images](docs/images/) | 3D renders and layer views |
-| 📍 [Pick-and-Place Data](manufacturing/pick-and-place/) | Component placement data |
-| 📊 [ERC / DRC Reports](docs/images/) | Design verification screenshots |
+|  [Schematic PDF](docs/IOT_Schematic.pdf) | Complete electrical schematic |
+|  [Bill of Materials](bom/IOT_BOM.csv) | Component BOM |
+|  [Gerber & Drill Files](manufacturing/gerbers/) | PCB manufacturing outputs |
+|  [KiCad Project](hardware/kicad/) | Native KiCad design files |
+|  [PCB Images](docs/images/) | 3D renders and layer views |
+|  [Pick-and-Place Data](manufacturing/pick-and-place/) | Component placement data |
+|  [ERC / DRC Reports](docs/images/) | Design verification screenshots |
 
 ---
 
@@ -193,7 +193,7 @@ The native KiCad project is located in:
 
 The exported electrical schematic is available as:
 
-### 📐 [View IOT Schematic PDF](docs/IOT_Schematic.pdf)
+###  [View IOT Schematic PDF](docs/IOT_Schematic.pdf)
 
 The schematic documents the ESP32 controller, environmental sensor,
 USB interface, relay control, Qwiic interface,
@@ -205,7 +205,7 @@ power circuitry, and associated support components.
 
 The current component BOM is available here:
 
-### 📦 [View / Download IOT BOM](bom/IOT_BOM.csv)
+###  [View / Download IOT BOM](bom/IOT_BOM.csv)
 
 The BOM contains the component references, quantities, values,
 footprints, and associated component information from the design.
@@ -216,7 +216,7 @@ footprints, and associated component information from the design.
 
 The generated manufacturing package is available under:
 
-### 🏭 [Gerber & Drill Files](manufacturing/gerbers/)
+###  [Gerber & Drill Files](manufacturing/gerbers/)
 
 The package contains:
 
